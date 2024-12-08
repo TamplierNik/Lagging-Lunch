@@ -1,0 +1,179 @@
+body{
+    background: rgb(69, 0, 180);
+    margin: 0 auto;
+}
+
+.img1{
+    width: 50%;
+    height: 50%;
+}
+
+.img1div{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-color: rgb(38, 0, 56);
+    position: relative;
+    margin: 0 auto;
+    height: 100px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.text1{
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+    font-family:"OCR A Std", monospace;
+    color: rgb(255, 255, 255);
+}
+
+.text{
+    position: relative;
+    width: 30%;
+    font-size: 50px;
+    font-family:"OCR A Std", monospace;
+    color: rgb(255, 255, 255);
+}
+
+.text2{
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    font-family: "OCR A Std", monospace;
+    color: rgb(255, 255, 255);
+}
+
+.butdiv{
+    position: absolute;
+    bottom: 10px; 
+    left: 50%;
+    margin-left: -200px;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    float: left;
+
+}
+
+.buttons{
+    width: 39%;
+    height: 40px;
+    background-color: #ffffff;
+    color:#420080;
+    
+}
+
+.butreg{
+    position: relative;
+    top:20px;
+    right: 30px;
+    float:right;
+    width: 8%;
+    height: 40px;
+    background-color: #ffffff;
+    color:#420080;
+}
+
+.maindiv{
+    width: 80%;
+    margin: 0 auto;
+}
+
+table{
+    font-size: 30px;
+    margin: auto;
+    font-family: "Century gothic";
+    color: #ffffff;
+}
+
+td{
+    border: 1px solid cyan;
+    text-align: center;
+    width: 50%;
+}
+
+.imgmain{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    border: 2px solid cyan;
+}
+
+.imgdiv{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.divimg1{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.divimg2{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.divimg3{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.divimg4{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.textmain {
+    font-family: Verdana;
+    font-size: 20px;
+    background:  rgb(255, 238, 0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    color: #0B2349;
+    margin: 0 auto;
+  }
+
+  .textend{
+    font-family: "Monotype Corsiva";
+    font-size: 25px;
+    text-align: center;
+    color: rgb(212, 0, 255);;
+}
+
+.zakas {
+    height:250px;
+  display:flex;
+  flex-flow: column wrap;
+}
+
+.fd {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+.footimg{
+    width: 70px;
+    height: 70px;
+}
+
+footer {
+    background-color: rgba(38, 0, 56);
+    color: rgb(177, 177, 177);
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 90%;
+    margin: 0 auto;
+    border-radius: 20px 20px 0px 0px;
+
+}
